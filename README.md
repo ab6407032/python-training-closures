@@ -42,6 +42,10 @@ print(counter())  # ➜ 2
 ---
 
 ### 2️⃣ 🧠 Callback Design
+A callback is a function passed as an argument to another function to be called later, usually when a certain event occurs.
+
+Closures are useful here because they let the callback retain context or configuration even after the outer function has finished executing.
+
 
 Closures retain outer values like `user_id` or `context` when passed as callback functions to GUIs or async code.
 
@@ -86,6 +90,8 @@ greet("Alice")
 ---
 
 ### 4️⃣ 🏭 Factory Function Generation
+A factory function returns other functions that are customized using the arguments you passed.
+Closures are what allow the returned function to remember the original inputs.
 
 Closures allow you to create **customized functions** from templates with remembered parameters.
 
