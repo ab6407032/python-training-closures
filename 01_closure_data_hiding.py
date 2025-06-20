@@ -9,6 +9,17 @@ without using global variables or object-oriented programming.
 A vending machine remembers how much money you've inserted, 
 but this state isn't visible or modifiable from outside.
 
+Problem Statement:
+You are tasked with designing a simple bank account system that can:
+
+Accept deposits
+
+Process withdrawals
+
+Return the current balance
+
+However, you must ensure the account balance remains private and cannot be accessed or modified directly from outside the function.
+
 """
 
 def create_account(initial_balance):
