@@ -20,6 +20,14 @@ Return the current balance
 
 However, you must ensure the account balance remains private and cannot be accessed or modified directly from outside the function.
 
+Requirements:
+Use closures to encapsulate and protect the account balance.
+
+Allow only specific actions (deposit, withdraw, balance) to interact with the account.
+
+Use the nonlocal keyword to modify the balance within the inner function.
+
+Prevent direct access to the balance variable from outside.
 """
 
 def create_account(initial_balance):
