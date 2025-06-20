@@ -5,28 +5,19 @@ Closures allow functions to store state in a private scope.
 This is useful when you want to retain information across function calls
 without using global variables or object-oriented programming.
 
-🔒 Real-life Analogy:
-A vending machine remembers how much money you've inserted, 
-but this state isn't visible or modifiable from outside.
-
 Problem Statement:
 You are tasked with designing a simple bank account system that can:
 
 Accept deposits
-
 Process withdrawals
-
 Return the current balance
 
 However, you must ensure the account balance remains private and cannot be accessed or modified directly from outside the function.
 
 Requirements:
 Use closures to encapsulate and protect the account balance.
-
 Allow only specific actions (deposit, withdraw, balance) to interact with the account.
-
 Use the nonlocal keyword to modify the balance within the inner function.
-
 Prevent direct access to the balance variable from outside.
 """
 
